@@ -1,0 +1,93 @@
+.layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input_div{
+  display: flex;
+  background-color: rgb(230, 215, 215);
+  border-radius: 5px;
+  align-items: center;
+  padding:10px;
+  gap: 5px;
+  width: 350px;
+}
+.input_div input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.layout h2{ 
+  color: white;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.input_div i {
+  cursor: pointer;
+  font-size: 20px;
+}
+.input_div i:hover {
+  color: blue;
+}
+.element_rotate{
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+input {
+  background-color: rgba(255, 255, 255, 0);
+}
+button[type=submit]{
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+input[type=button]{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+  color: white;
+}
+input[type=button]:hover{
+  opacity: 0.4;
+}
+.create_date{ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card{
+  width: 450px;
+  max-height: 200px;
+  text-align: left;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  overflow-y: auto;
+  background-color: rgb(230, 215, 215);
+  padding: 5px 10px;
+  word-spacing: 0;
+}
+.flex_element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_element i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:rgb(136, 136, 136);
+  border-radius: 15px;
+}
